@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <MASM Include="ArraySum.asm" />
+    <MASM Include="DataScan.asm" />
     <MASM Include="DeclaringVariables.asm" />
     <MASM Include="MainBackwardCompat.asm" />
     <MASM Include="MainSimpleAddition.asm">
@@ -88,7 +90,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EntryPointSymbol>DeclaringVariables</EntryPointSymbol>
+      <EntryPointSymbol>DataScan</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

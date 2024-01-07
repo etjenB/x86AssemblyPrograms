@@ -24,5 +24,11 @@
     <MASM Include="DeclaringVariables.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="ArraySum.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="DataScan.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
