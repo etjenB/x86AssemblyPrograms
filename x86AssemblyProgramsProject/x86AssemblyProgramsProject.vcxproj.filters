@@ -30,5 +30,8 @@
     <MASM Include="DataScan.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="PointersAndTypeDef.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>

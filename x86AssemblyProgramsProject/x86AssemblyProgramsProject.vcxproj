@@ -26,6 +26,7 @@
     <MASM Include="MainSimpleAddition.asm">
       <FileType>Document</FileType>
     </MASM>
+    <MASM Include="PointersAndTypeDef.asm" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -90,7 +91,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EntryPointSymbol>DataScan</EntryPointSymbol>
+      <EntryPointSymbol>PointersAndTypeDef</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
