@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryAdressing", "MemoryAd
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntegersExploration", "IntegersExploration\IntegersExploration.vcxproj", "{CCB18586-BF93-4962-888C-5E395B31EFB8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConditionCodes", "ConditionCodes\ConditionCodes.vcxproj", "{0EE6AADA-104C-46E7-BBF7-16CBBF9D180E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{CCB18586-BF93-4962-888C-5E395B31EFB8}.Release|x64.Build.0 = Release|x64
 		{CCB18586-BF93-4962-888C-5E395B31EFB8}.Release|x86.ActiveCfg = Release|Win32
 		{CCB18586-BF93-4962-888C-5E395B31EFB8}.Release|x86.Build.0 = Release|Win32
+		{0EE6AADA-104C-46E7-BBF7-16CBBF9D180E}.Debug|x64.ActiveCfg = Debug|x64
+		{0EE6AADA-104C-46E7-BBF7-16CBBF9D180E}.Debug|x64.Build.0 = Debug|x64
+		{0EE6AADA-104C-46E7-BBF7-16CBBF9D180E}.Debug|x86.ActiveCfg = Debug|Win32
+		{0EE6AADA-104C-46E7-BBF7-16CBBF9D180E}.Debug|x86.Build.0 = Debug|Win32
+		{0EE6AADA-104C-46E7-BBF7-16CBBF9D180E}.Release|x64.ActiveCfg = Release|x64
+		{0EE6AADA-104C-46E7-BBF7-16CBBF9D180E}.Release|x64.Build.0 = Release|x64
+		{0EE6AADA-104C-46E7-BBF7-16CBBF9D180E}.Release|x86.ActiveCfg = Release|Win32
+		{0EE6AADA-104C-46E7-BBF7-16CBBF9D180E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
