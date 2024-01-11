@@ -27,6 +27,7 @@
       <FileType>Document</FileType>
     </MASM>
     <MASM Include="PointersAndTypeDef.asm" />
+    <MASM Include="StringsTransfer.asm" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -91,7 +92,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EntryPointSymbol>PointersAndTypeDef</EntryPointSymbol>
+      <EntryPointSymbol>StringsTransfer</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
