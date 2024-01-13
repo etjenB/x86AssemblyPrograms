@@ -20,6 +20,22 @@ FtoC proc
 	fsubp								;ST(1) = ST(1) - ST(0) -> pop current ST(0), so ST(1) becomes ST(0) // f - 32
 	fmulp								;ST(1) = ST(1) * ST(0) -> pop current ST(0), so ST(1) becomes ST(0) // (f-32) * 5/9
 
+	pop ebp
+
 	ret
 FtoC endp
+
+CtoF proc
+	push ebp
+	mov ebp,esp
+
+	fld real8 ptr[ebp+8]
+	fmul [r8_SfCtoF]
+	
+	fiadd[i4_32]								
+
+	pop ebp
+
+	ret
+CtoF endp
 end
