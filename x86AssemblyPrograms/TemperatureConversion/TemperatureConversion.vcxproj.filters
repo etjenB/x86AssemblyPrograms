@@ -28,7 +28,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="Adder.asm">
+    <MASM Include="TempConverter.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
