@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SphereAreaVolume", "SphereA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Statistics", "Statistics\Statistics.vcxproj", "{BD6747F7-0ED2-4B0A-B60E-6CCE6F2A2664}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinMax", "MinMax\MinMax.vcxproj", "{AB629169-E063-4227-AE01-AA3A100C8350}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{BD6747F7-0ED2-4B0A-B60E-6CCE6F2A2664}.Release|x64.Build.0 = Release|x64
 		{BD6747F7-0ED2-4B0A-B60E-6CCE6F2A2664}.Release|x86.ActiveCfg = Release|Win32
 		{BD6747F7-0ED2-4B0A-B60E-6CCE6F2A2664}.Release|x86.Build.0 = Release|Win32
+		{AB629169-E063-4227-AE01-AA3A100C8350}.Debug|x64.ActiveCfg = Debug|x64
+		{AB629169-E063-4227-AE01-AA3A100C8350}.Debug|x64.Build.0 = Debug|x64
+		{AB629169-E063-4227-AE01-AA3A100C8350}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB629169-E063-4227-AE01-AA3A100C8350}.Debug|x86.Build.0 = Debug|Win32
+		{AB629169-E063-4227-AE01-AA3A100C8350}.Release|x64.ActiveCfg = Release|x64
+		{AB629169-E063-4227-AE01-AA3A100C8350}.Release|x64.Build.0 = Release|x64
+		{AB629169-E063-4227-AE01-AA3A100C8350}.Release|x86.ActiveCfg = Release|Win32
+		{AB629169-E063-4227-AE01-AA3A100C8350}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
