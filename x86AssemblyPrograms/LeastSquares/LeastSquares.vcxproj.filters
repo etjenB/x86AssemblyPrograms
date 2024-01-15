@@ -28,7 +28,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="Adder.asm">
+    <MASM Include="CalcLeastSquares.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
