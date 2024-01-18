@@ -99,7 +99,7 @@ SseArithmeticOperationsDouble proc
 	movsd real8 ptr[eax+40],xmm7
 
 ;Absolute value
-	andps xmm1,[AbsMaskDouble]
+	andpd xmm1,[AbsMaskDouble]
 	movsd real8 ptr[eax+48],xmm1
 
 ;Square root
