@@ -26,6 +26,7 @@ SseSphereCalculator proc
 	mulsd xmm1,xmm1
 	mulsd xmm1,[r8_four]
 	mulsd xmm1,[r8_pi]
+	movsd real8 ptr[ecx],xmm1				;save surface area
 
 ;Volume -> 4*Pi*r^3
 	mulsd xmm1,xmm0
