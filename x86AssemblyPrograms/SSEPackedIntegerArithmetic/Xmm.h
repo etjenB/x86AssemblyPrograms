@@ -2,7 +2,7 @@
 
 #include "MiscDef.h"
 
-union MmxVal
+union XmmVal
 {
 	Int8 i8[16];
 	Int16 i16[8];
