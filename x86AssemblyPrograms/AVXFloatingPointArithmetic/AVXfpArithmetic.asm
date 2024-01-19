@@ -29,7 +29,7 @@ AVX_fp_Arith proc
 	
 	vmaxsd xmm3,xmm0,xmm1
 
-	vsqrtsd xmm4,xmm0,xmm1
+	vsqrtsd xmm4,xmm0,xmm0
 
 	vandpd xmm5,xmm1,xmmword ptr[AbsMask]
 
