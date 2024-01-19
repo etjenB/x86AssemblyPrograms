@@ -5,6 +5,8 @@
 #include <iostream>
 #include <stdlib.h>
 
+extern "C" void AVX_fp_Arith(double a, double b, double results[8]);
+
 int main()
 {
 
